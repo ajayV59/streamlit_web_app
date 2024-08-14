@@ -12,10 +12,10 @@ st.write("# Price Predictor Real Estate")
 
 
 
-with open('C:\\Capstone_project_real_estate\\df.pkl','rb') as file:
+with open('data/df.pkl','rb') as file:
     df = pickle.load(file)
 
-with open('C:\\Capstone_project_real_estate\\pipeline.pkl','rb') as file:
+with open('data/pipeline_new.pkl','rb') as file:
     pipeline = pickle.load(file)
 
 
