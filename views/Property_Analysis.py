@@ -18,7 +18,7 @@ st.set_page_config(page_title="Plotting Demo")
 
 st.title('Analytics')
 
-new_df = pd.read_csv('C:\\Capstone_project_real_estate\\data_viz1.csv')
+new_df = pd.read_csv('data/data_viz1.csv')
 
 group_df = new_df.groupby('sector')[['price','price_per_sqft','builtup_area','latitude','longitude']].mean()
 
