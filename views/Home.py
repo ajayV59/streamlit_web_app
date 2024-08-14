@@ -1,5 +1,5 @@
 import streamlit  as st
-import category_encoders
+#import category_encoders
 
 st.set_page_config(
      page_title='Gurgaon Real Estate Analytics app',
