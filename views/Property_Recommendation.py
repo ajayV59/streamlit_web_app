@@ -6,16 +6,16 @@ import numpy as np
 
 st.set_page_config(page_title="Recommend Apartments")
 
-with open('C:\\Capstone_project_real_estate\\cosine_sim1.pkl','rb') as file:
+with open('data/cosine_sim1.pkl','rb') as file:
     cosine_sim1 = pickle.load(file)
 
-with open('C:\\Capstone_project_real_estate\\cosine_sim2.pkl','rb') as file:
+with open('data/cosine_sim2.pkl','rb') as file:
     cosine_sim2 = pickle.load(file)
 
-with open('C:\\Capstone_project_real_estate\\cosine_sim3.pkl','rb') as file:
+with open('data/cosine_sim3.pkl','rb') as file:
     cosine_sim3 = pickle.load(file)
 
-with open('C:\\Capstone_project_real_estate\\loc_distance.pkl','rb') as file:
+with open('data/loc_distance.pkl','rb') as file:
     location_df = pickle.load(file)
 
 def recommend_properties_with_scores(property_name, top_n=247):
