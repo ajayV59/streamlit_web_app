@@ -34,7 +34,7 @@ st.plotly_chart(fig,use_container_width=True)
 
 #wordcloud
 
-with open('C:\\Capstone_project_real_estate\\df_cloud.pkl','rb') as file:
+with open('data/df_cloud.pkl','rb') as file:
     df_word = pickle.load(file)
 
 
