@@ -35,8 +35,10 @@ st.plotly_chart(fig,use_container_width=True)
 
 #wordcloud
 
-with open('data/df_cloud.pkl','rb') as file:
-    df_word = pickle.load(file)
+#with open('data/df_cloud.pkl','rb') as file:
+    #df_word = pickle.load(file)
+
+df_word = pd.read_pickle("data/df_cloud.pkl")
 
 
 
