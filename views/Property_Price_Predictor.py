@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import sklearn
 import category_encoders
-#import joblib
+import joblib
 
 #st.set_page_config(page_title="Viz Demo")
 
@@ -17,7 +17,7 @@ with open('data/df.pkl','rb') as file:
     df = pickle.load(file)
 
 with open('data/pipeline.pkl','rb') as file:
-    pipeline = pickle.load(file)
+    pipeline = joblib.load(file)
 
 
 st.header('Enter your inputs')
