@@ -3,7 +3,7 @@ matplotlib
 numpy
 pandas
 plotly
-scikit_learn==1.3.2
+scikit_learn
 seaborn
 streamlit
 wordcloud
