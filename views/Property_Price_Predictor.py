@@ -18,7 +18,7 @@ with open('data/df_x.pkl','rb') as file:
     df = pickle.load(file)
 
 with open('data/pipeline_xy.pkl','rb') as file:
-    pipeline = pickle.load(file)
+    pipeline = joblib.load(file)
 
 
 st.header('Enter your inputs')
