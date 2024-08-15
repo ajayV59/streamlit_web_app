@@ -60,8 +60,8 @@ if st.button('Predict'):
     #st.dataframe(one_df)
 
     # predict
-    #base_price = np.expm1(pipeline.predict(one_df))[0]
-    base_price = pipeline.predict(one_df)[0]
+    base_price = np.expm1(pipeline.predict(one_df))[0]
+    
     low = base_price - 0.10
     high = base_price + 0.10
 
