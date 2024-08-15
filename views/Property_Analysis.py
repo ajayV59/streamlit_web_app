@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import ast
 import numpy as np
-#import joblib
+import joblib
 
 
 ################################################################
@@ -36,7 +36,7 @@ st.plotly_chart(fig,use_container_width=True)
 #wordcloud
 
 with open('data/df_cloud.pkl','rb') as file:
-    df_word = pickle.load(file)
+    df_word = joblib.load(file)
 
 #df_word = pd.compat.pickle_compat.load("data/df_cloud.pkl")
 
