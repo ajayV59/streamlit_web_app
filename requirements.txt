@@ -9,3 +9,4 @@ streamlit
 wordcloud
 streamlit
 joblib
+pickle
