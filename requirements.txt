@@ -7,5 +7,5 @@ matplotlib==3.9.0
 seaborn==0.13.2
 numpy==1.26.4
 category_encoders
-joblib
+joblib==1.4.2
 
