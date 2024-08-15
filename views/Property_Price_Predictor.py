@@ -17,7 +17,7 @@ st.write("# Price Predictor Real Estate")
 with open('data/df_x.pkl','rb') as file:
     df = pickle.load(file)
 
-with open('data/pipeline_x.pkl','rb') as file:
+with open('data/pipeline_xy.pkl','rb') as file:
     pipeline = joblib.load(file)
 
 
